@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTech Solutions | Soluciones Tecnológicas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#050b16;
+    color:white;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8));
+}
+
+.logo{
+    width:220px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.highlight{
+    color:#1d7cff;
+}
+
+.subtitle{
+    max-width:700px;
+    color:#cfcfcf;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#1d7cff;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0d5cd3;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2.2rem;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0d1628;
+    padding:30px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#1d7cff;
+    margin-bottom:10px;
+}
+
+.about{
+    text-align:center, justify;
+    max-width:900px;
+    margin:auto;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#08111f;
+    padding:25px;
+    text-align:center;
+    color:#aaa;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <!-- CAMBIA logo.png POR TU LOGO -->
+    <img src="logo.jpg" alt="BTech Solutions" class="logo">
+
+    <h1>BTech <span class="highlight">Solutions</span></h1>
+
+    <p class="subtitle">
+        Soluciones tecnológicas para hogares, negocios y empresas.
+        Soporte técnico, redes, cámaras de seguridad y servicios informáticos.
+    </p>
+
+    <a href="#contacto" class="btn">Solicitar Cotización</a>
+
+</header>
+
+<section id="servicios">
+
+    <h2 class="section-title">Nuestros Servicios</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>💻 Soporte Técnico</h3>
+            <p>Mantenimiento y reparación de computadoras y laptops.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Redes WiFi</h3>
+            <p>Instalación y configuración de redes domésticas y empresariales.</p>
+        </div>
+
+        <div class="card">
+            <h3>🖨️ Equipos y Accesorios</h3>
+            <p>Venta e instalación de periféricos y equipos tecnológicos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Mantenimiento Preventivo</h3>
+            <p>Limpieza y optimización de equipos para mejorar rendimiento.</p>
+        </div>
+
+        <div class="card">
+            <h3>☁️ Asesoría Tecnológica</h3>
+            <p>Soluciones adaptadas a las necesidades de cada cliente.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="nosotros">
+
+    <div class="about">
+
+        <h2 class="section-title">¿Quiénes Somos?</h2>
+
+        <p>
+            En BTech Solutions ofrecemos servicios tecnológicos de calidad,
+            brindando soluciones rápidas, confiables y accesibles para hogares,
+            emprendedores y empresas. Estamos comprometidos con la satisfacción de nuestros clientes y la innovación constante en el ámbito tecnológico.
+            BTech Solutions también puede ayudarte, si necesitas aprender a usar tu computadora, configurar tu red WiFi o resolver cualquier problema tecnológico, no dudes en contactarnos. Estamos aquí para ayudarte a sacar el máximo provecho de la tecnología en tu vida diaria y profesional.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="contacto">
+
+    <div class="contact">
+
+        <h2 class="section-title">Contacto</h2>
+
+        <p>📍 Guatemala</p>
+        <p>📞 +502 TU NÚMERO</p>
+        <p>✉️ contacto@btechsolutions.com</p>
+
+        <br>
+
+        <a class="btn" href="https://wa.me/50241596469" target="_blank">
+            Contactar por WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 BTech Solutions - Todos los derechos reservados.
+</footer>
+
+<a class="whatsapp" href="https://wa.me/50241596469" target="_blank">
+    WhatsApp
+</a>
+
+</body>
+</html>
